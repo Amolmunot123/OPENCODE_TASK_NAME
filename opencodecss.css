@@ -1,0 +1,107 @@
+.header{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("web 11.jpg");
+    color: aqua;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.list{
+    display: flex;
+    justify-content: flex-end;
+}
+.header h2{
+    display: inline;
+    padding-top: 40px;
+    padding-left:40px;
+    font-size: 3rem;
+    color:445D48;   
+}
+.list div{
+    padding-right: 60px;
+    font-size: x-large;
+}
+.Text{
+    position: absolute;
+    bottom: 200px;
+    left: 40px;
+    line-height: 2rem;
+}
+.header h3{
+    display: inline;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    font-size: 3rem;
+    color: aquamarine;
+    font-weight: 900;
+}
+.Text1{
+    position: relative;
+    bottom: 100px;
+    font-size: large;
+    color:#ffd700;
+    font-weight: 600;
+}
+.Contact{
+    display: inline;
+    position: absolute;
+    bottom: 220px;
+    left: 40px;
+    letter-spacing: 0.2rem;
+    font-size: large;
+    opacity: 0.7;
+}
+.contacts{
+    display: inline;
+    position: absolute;
+    bottom: 220px;
+    left: 330px;
+    letter-spacing: 0.2rem;
+    font-size: large;
+    opacity: 0.7;
+}
+.button{
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    left: 40px;
+}
+.button1{
+    position: absolute;
+    left: 200px;
+}
+.button2 {
+    position: absolute;
+    left:400px;
+}
+.button3 {
+    position: absolute;
+    left: 600px;
+}
+.button button{
+    background-color:black;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    color: aqua;
+    margin: 2px 2px 2px 2px;
+    /*z-index: 2px;*/
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    box-shadow: 5px 5px 10px rgb(4, 216, 253);
+}
+.button button:hover{
+    box-shadow: 10px 10px 5px rgb(4, 216, 253);
+    transition: box-shadow 0.5s ease-in-out 0.2s;
+}
+.socialmedia{
+    position: absolute;
+    bottom: 2rem;
+}
+.socialmedia a{
+    color: aliceblue;
+    font-size: x-large;
+}
+.socialmedia i:hover{
+    transform: scale(1.1);
+}
